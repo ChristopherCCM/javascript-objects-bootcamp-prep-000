@@ -2,7 +2,7 @@ var playlist = { Prince: '1999'};
 
 function updatePlaylist(playlist, artistName, songTitle) {
   playlist[artistName] = songTitle
-  return object
+  return playlist
 }
 
 function removeFromPlaylist(playlist, artistName) {
